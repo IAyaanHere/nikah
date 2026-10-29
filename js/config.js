@@ -156,7 +156,7 @@ window.INVITATION_CONFIG = {
     "revealDate": "Reveal"
   },
   "brand": {
-    "credit": "Crafted with love by Naqsh Digital"
+    "credit": "Crafted with love by @Noor.invites.nagpur"
   },
   "pairsVerse": {
     "arabic": "وَخَلَقْنَاكُمْ أَزْوَاجًا",
