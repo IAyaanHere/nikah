@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Naqsh Digital//Amina Zayan Nikkah Demo//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:amina-zayan-demo-nikkah-20270123@naqshdigital.in
+DTSTAMP:20261023T000000Z
+DTSTART:20270123T053000Z
+SUMMARY:Amina & Zayan — Nikkah Ceremony (Demo)
+LOCATION:The Ivory Pavilion (fictional)\, Crescent Avenue\,
+  Bengaluru\, India
+DESCRIPTION:Fictional invitation demo.\nNikkah at 11:00 am IST
+  (Asia/Kolkata\, UTC+05:30).\nReception Lunch at 1:00 pm IST.
+END:VEVENT
+END:VCALENDAR

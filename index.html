@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en" class="scroll-locked">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#fcfaf6" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; media-src 'self' data: blob:; base-uri 'self';" />
+  <meta name="description" content="A fictional Nikkah invitation demo for Amina Rahman and Zayan Farooq." />
+  <meta property="og:title" content="Wedding Invitation Demo — Amina &amp; Zayan" />
+  <meta property="og:description" content="Tap to Open · Fictional invitation demo" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://naqshdigital.in/demo/afsana/" />
+  <link rel="canonical" href="https://naqshdigital.in/demo/afsana/" />
+  <meta property="og:image" content="./assets/images/wedding-demo.jpg" />
+  <meta property="og:image:type" content="image/jpeg" /><meta property="og:image:width" content="1731" /><meta property="og:image:height" content="909" />
+  <meta property="og:image:alt" content="Wedding Invitation Demo — Amina &amp; Zayan — Tap to Open" />
+  <meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="./assets/images/wedding-demo.jpg" />
+  <title>Amina &amp; Zayan — Nikkah Invitation Demo</title>
+  <link id="iconStyles" rel="stylesheet" media="print" href="./assets/css/all.min.css" />
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="./assets/css/fonts.css" /><link rel="stylesheet" href="./assets/css/styles.css" /><link rel="stylesheet" href="./assets/css/theme.css" />
+  <link rel="preload" href="./assets/images/ribbon-poster-v2.jpg" as="image" />
+  <link rel="preload" href="./assets/fonts/monsieur-la-doulaise-regular.ttf" as="font" type="font/ttf" crossorigin />
+  <link rel="preload" href="./assets/fonts/parisienne-regular.ttf" as="font" type="font/ttf" crossorigin />
+  <script src="./assets/js/config.js" defer></script><script src="./assets/js/scratch.js" defer></script><script src="./assets/js/scratch-celebration.js" defer></script><script src="./assets/js/app.js" defer></script><script src="./assets/js/fireworks.js" defer></script><script src="./assets/js/glimmer.js" defer></script><script src="./assets/js/preview-ui.js" defer></script>
+</head>
+<body class="scroll-locked">
+  <main id="invitation" class="invitation">
+    <section id="hero" class="hero" aria-label="Wedding invitation">
+      <img id="heroPoster" class="hero-video" src="./assets/images/mosque-couple-fast-final.webp" alt="A bride in white with a crimson veil and a groom in ivory seated opposite each other, separated by a white floral screen in a mosque courtyard" fetchpriority="high" />
+  <div id="opening" class="opening"><div class="opening-art">
+    <video id="introVideo" class="opening-video" muted playsinline preload="auto" poster="./assets/images/ribbon-poster-v2.jpg" aria-hidden="true"></video>
+    <img fetchpriority="high" id="introPoster" class="opening-poster" src="./assets/images/ribbon-poster-v2.jpg" alt="" />
+    <div class="cover-frame" aria-hidden="true"><i></i><i></i><i></i><i></i></div><button id="openingGate" class="opening-gate" type="button" aria-label="Open wedding invitation demo"><span class="opening-caption"><img class="opening-monogram" src="./assets/images/gold-az-monogram-custom.png" width="1254" height="1254" alt="" /><small>You’re invited</small><em data-bind="opening.label">Open invitation</em></span></button>
+    <button id="skipIntro" class="skip-intro" type="button" hidden>Skip intro</button>
+  </div></div>
+      <div class="hero-shade" aria-hidden="true" hidden></div>
+      <div class="hero-content" hidden><p class="hero-bismillah" lang="ar" dir="rtl" aria-label="بسم الله الرحمن الرحيم" data-bind="hero.bismillah"></p><div class="hero-couple">
+        <p class="hero-family" data-bind="hero.families"></p>
+        <h1 class="hero-names"><span class="hero-bride" data-bind="hero.bride"></span><span class="hero-amp" data-bind="couple.separator"></span><span class="hero-groom" data-bind="hero.groom"></span></h1>
+        <p class="hero-occasions" data-bind="hero.occasions"></p>
+      </div></div>
+      <a class="scroll-cue" hidden href="#pairs"><span data-bind="hero.scroll"></span><svg width="14" height="9" viewBox="0 0 14 9" aria-hidden="true"><path d="m2 2 5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" /></svg></a>
+    </section>
+    <div id="heroDivider" class="royal-seam" aria-hidden="true" hidden><img src="./assets/images/royal-seam-divider.png" width="2172" height="724" alt="" decoding="async" /></div>
+    <section id="pairs" class="verse-section verse-section--pairs" aria-label="A verse from the Qur’an"><div class="verse-content reveal">
+      <p class="verse-arabic" lang="ar" dir="rtl" data-bind="pairsVerse.arabic"></p>
+      <p class="verse-translation" data-bind="pairsVerse.translation"></p>
+      <p class="verse-reference" data-bind="pairsVerse.reference"></p>
+      <div class="ornament" aria-hidden="true"><span>✦</span></div>
+    </div></section>
+    <div class="royal-seam" aria-hidden="true"><img src="./assets/images/royal-seam-divider.png" width="2172" height="724" alt="" loading="lazy" decoding="async" /></div>
+    <section id="formal" class="formal" aria-label="Formal wedding invitation"><canvas id="gardenFireworks" class="fireworks-layer" data-firework-scene="garden" aria-hidden="true"></canvas><div class="formal-content reveal">
+      <p class="eyebrow" data-bind="formal.eyebrow"></p><p class="formal-intro" data-bind="formal.invitation"></p>
+      <p class="formal-name" data-bind="couple.bride"></p><p class="formal-relation" data-bind="formal.brideRelation"></p><p class="formal-family" data-bind="formal.brideParents"></p>
+      <p class="formal-joining" data-bind="formal.joining"></p><p class="formal-name formal-groom" data-bind="couple.groom"></p><p class="formal-relation" data-bind="formal.groomRelation"></p><p class="formal-family" data-bind="formal.groomParents"></p>
+      <div class="ornament" aria-hidden="true"><span>✦</span></div>
+    </div></section>
+    <section id="marriageVerse" class="verse-section verse-section--marriage" aria-label="Compassion and mercy"><div class="verse-content reveal">
+      <div class="ornament" aria-hidden="true"><span>✦</span></div>
+      <p class="verse-arabic" lang="ar" dir="rtl" data-bind="marriageVerse.arabic"></p>
+      <p class="verse-translation" data-bind="marriageVerse.translation"></p>
+      <p class="verse-reference" data-bind="marriageVerse.reference"></p>
+    </div></section>
+    <div class="details-paper">
+    <section id="saveDate" class="date-section" aria-labelledby="scratchTitle">
+      <div class="scene-ornament" aria-hidden="true"></div>
+      <header class="section-heading reveal"><p class="eyebrow" data-bind="scratch.eyebrow"></p><h2 id="scratchTitle" data-bind="scratch.title"></h2></header>
+      <p class="scratch-hint reveal" data-bind="scratch.hint"></p><div id="scratchCards" class="scratch-cards reveal"></div><p id="scratchStatus" class="sr-only" role="status"></p>
+      <div id="countdown" class="countdown-panel reveal" aria-labelledby="countdownTitle"><div class="ornament" aria-hidden="true"><span>✦</span></div><h3 id="countdownTitle" data-bind="countdown.title"></h3><div id="countdownUnits" class="countdown-units" role="timer" aria-live="off" aria-hidden="true"></div></div>
+    </section>
+    <div id="events"></div>
+    </div>
+    <section id="gifts" class="gifts-section" aria-labelledby="giftTitle"><div class="scene-ornament" aria-hidden="true"></div><div class="gift-copy reveal"><p class="eyebrow" data-bind="gifts.eyebrow"></p><h2 id="giftTitle" data-bind="gifts.title"></h2></div><img id="handsImage" class="hands-image" width="1120" height="1400" src="./assets/images/hands.webp" alt="The couple’s joined hands, with white embroidered sleeves and a crimson veil" loading="lazy" decoding="async" /></section>
+    <div class="royal-seam" aria-hidden="true"><img src="./assets/images/royal-seam-divider.png" width="2172" height="724" alt="" loading="lazy" decoding="async" /></div>
+    <section id="dua" class="dua" aria-labelledby="duaTitle"><div class="dua-content reveal"><h2 id="duaTitle" data-bind="dua.title"></h2><div class="ornament" aria-hidden="true"><span>✦</span></div><p class="dua-prayer" lang="ar" dir="rtl" data-bind="dua.arabic"></p><p id="duaTranslation" class="dua-translation" data-bind="dua.translation"></p><p class="verse-reference" data-bind="dua.reference"></p><p id="duaMessage" class="dua-message" lang="ar" dir="rtl" data-bind="dua.message"></p></div></section>
+    <div class="royal-seam" aria-hidden="true"><img src="./assets/images/royal-seam-divider.png" width="2172" height="724" alt="" loading="lazy" decoding="async" /></div>
+    <section id="celebration" class="celebration" aria-label="A celebration of Amina and Zayan"><canvas id="fireworksCanvas" data-firework-scene="closing" aria-hidden="true"></canvas><div class="celebration-copy"><p class="eyebrow" data-bind="wellWishes.eyebrow"></p><img id="closingMonogram" class="closing-monogram" width="1254" height="1254" src="./assets/images/gold-az-monogram-custom.png" alt="A and Z gold monogram" loading="lazy" /><p class="celebration-message" data-bind="wellWishes.message"></p><p class="celebration-signoff" data-bind="wellWishes.signoff"></p></div></section>
+    <footer class="footer"><p><a href="https://naqshdigital.in" target="_blank" rel="noopener noreferrer" data-bind="brand.credit"></a></p></footer>
+  </main>
+  <canvas id="glimmerCanvas" aria-hidden="true"></canvas>
+  <audio id="backgroundMusic" loop preload="metadata"></audio>
+  <button id="musicToggle" class="music-toggle" type="button" aria-label="Play music" aria-pressed="false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4Z" stroke-linejoin="round"/><g class="sound-waves"><path d="M16 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" stroke-linecap="round"/></g><path class="sound-slash" d="m16 9 5 6m0-6-5 6" stroke-linecap="round"/></svg></button>
+  <noscript><style>#opening{display:none}.reveal,.hero-content,.scroll-cue{opacity:1;transform:none}html.scroll-locked,body.scroll-locked{overflow:auto;height:auto}</style><div class="no-script">Fictional invitation demo · Amina Rahman &amp; Zayan Farooq · Saturday, 23 January 2027 · Nikkah 11:00 am · Reception Lunch 1:00 pm · India Standard Time (UTC+05:30) · The Ivory Pavilion, Crescent Avenue, Bengaluru, India.</div></noscript>
+
+<!-- NAQSH PREVIEW UI -->
+
+<div class="naqsh-demo-badge" hidden>
+  Demo Version
+</div>
+
+<button
+  type="button"
+  class="naqsh-preview-cta"
+  id="naqshPreviewCta"
+  aria-haspopup="dialog"
+  aria-controls="naqshCtaModal"
+  aria-expanded="false"
+>
+  Create Yours
+</button>
+
+<div
+  class="naqsh-cta-modal"
+  id="naqshCtaModal"
+  role="dialog"
+  aria-modal="true"
+  aria-labelledby="naqshCtaTitle"
+  aria-describedby="naqshCtaDescription"
+  aria-hidden="true"
+  tabindex="-1"
+>
+  <div
+    class="naqsh-cta-backdrop"
+    id="naqshCtaBackdrop"
+    aria-hidden="true"
+  ></div>
+
+  <div class="naqsh-cta-card">
+    <button
+      type="button"
+      class="naqsh-cta-close"
+      id="naqshCtaClose"
+      aria-label="Close"
+    >
+      ×
+    </button>
+
+    <span class="naqsh-cta-eyebrow">
+      NAQSH DIGITAL
+    </span>
+
+    <h3 id="naqshCtaTitle">
+      Love this theme?
+    </h3>
+
+    <p id="naqshCtaDescription">
+      We can personalise it with your names, events,
+      photos and details.
+    </p>
+
+    <a
+      href="https://naqshdigital.in/booking"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="naqsh-instagram-btn"
+    >
+      Book yours here!
+    </a>
+  </div>
+</div>
+
+</body></html>

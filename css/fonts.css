@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/amiri-regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Amiri';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/amiri-bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cormorant SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/cormorant-sc-regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cormorant SC';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/cormorant-sc-medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cormorant SC';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/cormorant-sc-semibold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Marcellus';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/marcellus-regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Monsieur La Doulaise';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/monsieur-la-doulaise-regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bodoni Moda'; font-style: normal; font-weight: 400; font-display: swap;
+  src: url(../fonts/bodoni-moda-3.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Bodoni Moda'; font-style: italic; font-weight: 400; font-display: swap;
+  src: url(../fonts/bodoni-moda-2.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Parisienne';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/parisienne-regular.ttf) format('truetype');
+}
